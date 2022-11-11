@@ -1,0 +1,320 @@
+.separador1{
+    width: 4%;
+    height: 800px;
+}
+.separador2{
+    height: 80px;
+}
+
+
+main{
+    padding: 40px 20px;
+    margin-top: 350px;
+}
+
+
+/*PERFIL*/
+.profile{
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: rgb(220, 242, 243);
+    border: 2px solid rgb(13, 150, 13);
+    border-radius: 10px;
+    padding: 1.5%;
+}
+.profile p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    text-align: justify;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*ESTUDIOS*/
+.container-studies{
+    max-width: 1000px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+.container-studies > .studies-table{
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: #E0ECF8;
+}
+
+.container-studies > .studies-table > thead{
+    background-color: #A9BCF5;
+    font-size: 22px;
+}
+.container-studies > .studies-table  th,td{
+    border: 1px solid white;
+    padding: 15px;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*EXPERIENCIA LABORAL*/
+/*-------TECNOINGENIERIA-------*/
+.teno-experience{
+    height: 900px;
+    max-width: 1500px;
+    margin: 10px auto;
+    border: 3px solid #4000FF;
+    border-radius: 10px;
+    background-image: radial-gradient(#2ECCFA, #A9A9F5);
+}
+.tecno-experience-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 1% 15%;
+}
+.tecno-experience-logo p{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+.tecno-experience-logo img{
+    height: 10%;
+}
+.description-tecno{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7% 1% 7%;
+    font-family: 'Kalam', cursive;
+}
+.description-tecno .companie-tecno{
+    width: 48%;
+    padding: 7%;
+    font-size: 22px;
+    text-align: justify;
+}
+.description-tecno .duties-tecno{
+    width: 48%;
+    padding: 4% 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+.description-tecno .duties-tecno p{
+    font-size: 28px;
+}
+.description-tecno .duties-tecno ul{
+    list-style: none;
+}
+.duties-tecno li::before{
+    content: "\2022 \00A0";
+    color: #4000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    display: inline-block;
+    padding-right: 10px;
+}
+/*-------TECMMAS-------*/
+.tecmmas-experience {
+    height: 900px;
+    max-width: 1500px;
+    margin: 10px auto;
+    border: 3px solid #4000FF;
+    border-radius: 10px;
+    background-image: linear-gradient(#F5A9F2, #BCA9F5);
+}
+.tecmmas-experience-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 1% 15%;
+}
+.tecmmas-experience-logo p{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+.tecmmas-experience-logo img{
+    height: 10%;
+}
+.description-tecmmas{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7% 1% 7%;
+    font-family: 'Kalam', cursive;
+}
+.description-tecmmas .companie-tecmmas{
+    width: 48%;
+    padding: 7%;
+    font-size: 22px;
+    text-align: justify;
+}
+.description-tecmmas .duties-tecmmas{
+    width: 48%;
+    padding: 4% 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+.description-tecmmas .duties-tecmmas p{
+    font-size: 28px;
+}
+.description-tecmmas .duties-tecmmas ul{
+    list-style: none;
+}
+.duties-tecmmas li::before{
+    content: "\2022 \00A0";
+    color: #4000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    display: inline-block;
+    padding-right: 10px;
+}
+/*-------SCHINDLER-------*/
+.schindler-exprience{
+    height: 900px;
+    max-width: 1500px;
+    margin: 10px auto;
+    border: 3px solid #4000FF;
+    border-radius: 10px;
+    background-image: radial-gradient(#F4FA58, #A9F5A9);
+}
+.schindler-exprience-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 1% 15%;
+}
+.schindler-exprience-logo p{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+.schindler-exprience-logo img{
+    height: 10%;
+}
+.description-schindler{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7% 1% 7%;
+    font-family: 'Kalam', cursive
+}
+.description-schindler .companie-schindler{
+    width: 48%;
+    padding: 7%;
+    font-size: 22px;
+    text-align: justify;
+}
+.description-schindler .duties-schindler{
+    width: 48%;
+    padding: 4% 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+.description-schindler .duties-schindler p{
+    font-size: 28px;
+}
+.description-schindler .duties-schindler ul{
+    list-style: none;
+}
+.duties-schindler li::before{
+    content: "\2022 \00A0";
+    color: #4000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    display: inline-block;
+    padding-right: 10px;
+}
+/*-------ALMAGRARIO-------*/
+.almagrario-experience{
+    height: 900px;
+    max-width: 1500px;
+    margin: 10px auto;
+    border: 3px solid #4000FF;
+    border-radius: 10px;
+    background-image: linear-gradient(#FA5858, #F4FA58);
+}
+.almagrario-experience-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 1% 15%;
+}
+.almagrario-experience-logo p{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+.almagrario-experience-logo img{
+    height: 10%;
+}
+.description-almagrario{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7% 1% 7%;
+    font-family: 'Kalam', cursive;
+}
+.description-almagrario .companie-almagrario{
+    width: 48%;
+    padding: 7%;
+    font-size: 22px;
+    text-align: justify;
+}
+.description-almagrario .duties-almagrario{
+    width: 48%;
+    padding: 4% 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+.description-almagrario .duties-almagrario p{
+    font-size: 28px;
+}
+.description-almagrario .duties-almagrario ul{
+    list-style: none;
+}
+.duties-almagrario li::before{
+    content: "\2022 \00A0";
+    color: #4000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*CONTACTOS*/
+.container-contact{
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    background-color: #E0ECF8;
+}
+.contact{
+    border: 3px solid #A9BCF5;
+    
+}
+.contact td{
+    border: 1px solid #BDBDBD;
+    padding: 15px;
+}
+.container-contact .contact img{
+    width: 18%;
+}
+.container-contact .contact .image{
+    text-align: center;
+}
+.contact tr td{
+    transition: all 300ms ease;
+}
+.contact tr:hover td{
+    background-color: #AED6F1;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+/*----------------------------------------------------------------------------------------*/
+
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Lobster Two', cursive;
+*/
